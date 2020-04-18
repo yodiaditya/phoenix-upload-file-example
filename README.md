@@ -1,3 +1,8 @@
+# WHAT IS THIS
+
+Simple project to explain how to do upload file in Phoenix Framework using Plug Upload to local path.
+
+
 # Hello
 
 To start your Phoenix server:
