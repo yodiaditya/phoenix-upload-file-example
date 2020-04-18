@@ -1,0 +1,11 @@
+<%= form_for @conn, "/upload", [as: :upload, multipart: true], fn f -> %>
+
+  <div class="form-group">
+    <label>Document</label>
+    <%= file_input f, :docfile, class: "form-control" %>
+  </div>
+
+  <div class="form-group">
+    <%= submit "Submit", class: "btn btn-primary" %>
+  </div>
+<% end %>
